@@ -53,13 +53,13 @@ export default function Skills() {
     },
    
     {
-      text: 'Docker', // Added Docker
+      text: 'Docker', 
       Icon: SiDocker,
     },
    
   ]
   return (
-    <div className='max-w-4xl mx-auto px-8'>
+    <div className='max-w-4xl mx-auto px-8 '>
          <Title text="Skills"
          className='flex flex-col items-center justify-center -right-6'/>
          <HoverEffect items={skills}/>

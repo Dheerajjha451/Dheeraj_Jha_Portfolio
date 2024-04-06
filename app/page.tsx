@@ -13,7 +13,7 @@ export default function Page() {
         <div className="max-w-7xl mx-auto">
           <HeroSection />
         </div>
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto my-20">
           <Skills />
         </div>
         <div className="max-w-7xl mx-auto">
