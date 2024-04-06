@@ -1,7 +1,6 @@
 "use client"
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 import { HiOutlineMenu, HiOutlineHome, HiOutlineViewGrid, HiOutlineChatAlt } from 'react-icons/hi'; 
 
 const navItems = [
@@ -25,8 +24,7 @@ const navItems = [
 const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const router = useRouter();
-
+  const currentPath = typeof window !== 'undefined' ? window.location.pathname : '';
   useEffect(() => {
     const handleScroll = () => {
       const isScrolling = window.scrollY > 50;
@@ -58,7 +56,7 @@ const Navbar = () => {
           <div className="absolute top-full left-0 w-full bg-gray-900 py-2 md:hidden">
             {navItems.map((item, index) => (
               <Link key={index} href={item.path}>
-                <div onClick={toggleMobileMenu} className={`text-white px-4 py-2 flex items-center space-x-2 ${router.pathname === item.path ? 'font-bold' : ''} hover:text-gray-300`}>
+                <div onClick={toggleMobileMenu} className={`text-white px-4 py-2 flex items-center space-x-2 ${currentPath === item.path ? 'font-bold' : ''} hover:text-gray-300`}>
                   {item.icon}
                   <span>{item.name}</span>
                 </div>
@@ -69,7 +67,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center space-x-4"> {/* Show only on desktop */}
           {navItems.map((item, index) => (
             <Link key={index} href={item.path}>
-              <div className={`text-white px-4 py-2 flex items-center space-x-2 ${router.pathname === item.path ? 'font-bold' : ''} hover:text-gray-300`}>
+              <div className={`text-white px-4 py-2 flex items-center space-x-2 ${currentPath === item.path ? 'font-bold' : ''} hover:text-gray-300`}>
                 {item.icon}
                 <span>{item.name}</span>
               </div>

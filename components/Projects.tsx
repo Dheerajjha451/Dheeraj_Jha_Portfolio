@@ -52,7 +52,7 @@ export default function Project() {
       },
       {
         title: 'NewsSD',
-        tech: [SiReact, SiTailwindcss, SiFlask],
+        tech: [SiReact, SiTailwindcss],
         link: 'https://github.com/Dheerajjha451/News',
         cover: project5Image,
         description: 'A news aggregation platform with social media features and customizable user profiles.',
