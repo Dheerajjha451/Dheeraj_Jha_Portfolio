@@ -10,7 +10,7 @@ export default function BlogsPage() {
         <div className="max-w-7xl mx-auto overflow-hidden">
           <Navbar />
         </div>
-        <div className='py-20'>
+        <div className='py-10'>
         <Blogs />
         </div>
         <Footer/>
