@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import Link from 'next/link';
+import { useState } from 'react';
 import { Button } from "@/components/ui/button"
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import Image from 'next/image';
@@ -13,6 +13,21 @@ export default function HeroSection() {
 
   const handleContactMe = () => {
     window.location.href = 'mailto:dheerajjha451@gmail.com';
+  };
+
+  const handleDownloadCV = () => {
+    const downloadUrl = '/ResumeDheeraj.pdf';
+    fetch(downloadUrl)
+      .then(response => response.blob())
+      .then(blob => {
+        const url = window.URL.createObjectURL(new Blob([blob]));
+        const a = document.createElement('a');
+        a.href = url;
+        a.setAttribute('download', 'Dheeraj_Resume.pdf');
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+      });
   };
 
   return (
@@ -44,10 +59,9 @@ export default function HeroSection() {
             </Button>
             <Button
               className="inline-flex h-12 w-full lg:w-auto items-center justify-center rounded-md border border-gray-400 bg-white text-gray-700 font-medium px-6 transition-all duration-300 hover:bg-gray-800 hover:text-white mt-4 lg:mt-0"
+              onClick={handleDownloadCV}
             >
-              <Link href="/ResumeDheeraj.pdf" download="Dheeraj_Resume.pdf">
-                Download CV
-              </Link>
+              Download CV
             </Button>
           </div>
         </div>
