@@ -43,12 +43,12 @@ export default function HeroSection() {
           <TextGenerateEffect words={words} />
           <div className="flex flex-wrap justify-center lg:justify-start gap-4 mt-4 lg:mt-6">
             <SiInstagram size={32} className="text-pink-500 cursor-pointer hover:text-pink-700" onClick={() => window.open('https://www.instagram.com/', '_blank')} />
-            <SiMedium size={32} className="text-gray-400 cursor-pointer hover:text-gray-600" onClick={() => window.open('https://medium.com/', '_blank')} />
-            <SiYoutube size={32} className="text-red-600 cursor-pointer hover:text-red-800" onClick={() => window.open('https://www.youtube.com/', '_blank')} />
-            <SiLinkedin size={32} className="text-blue-800 cursor-pointer hover:text-blue-900" onClick={() => window.open('https://www.linkedin.com/', '_blank')} />
-            <SiTwitter size={32} className="text-blue-400 cursor-pointer hover:text-blue-600" onClick={() => window.open('https://twitter.com/', '_blank')} />
-            <SiBehance size={32} className="text-blue-600 cursor-pointer hover:text-blue-800" onClick={() => window.open('https://www.behance.net/', '_blank')} />
-            <SiGithub size={32} className="text-gray-700 cursor-pointer hover:text-gray-900" onClick={() => window.open('https://github.com/', '_blank')} />
+            <SiMedium size={32} className="text-gray-400 cursor-pointer hover:text-gray-600" onClick={() => window.open('https://medium.com/@dheerajjha451', '_blank')} />
+            <SiYoutube size={32} className="text-red-600 cursor-pointer hover:text-red-800" onClick={() => window.open('https://youtube.com/@Dheeraj45136?si=wjzvEru1VVXOA4se', '_blank')} />
+            <SiLinkedin size={32} className="text-blue-800 cursor-pointer hover:text-blue-900" onClick={() => window.open('https://linkedin.com/in/dheeraj-jha451/', '_blank')} />
+            <SiTwitter size={32} className="text-blue-400 cursor-pointer hover:text-blue-600" onClick={() => window.open('https://twitter.com/dheerajjha451', '_blank')} />
+            <SiBehance size={32} className="text-blue-600 cursor-pointer hover:text-blue-800" onClick={() => window.open('https://www.behance.net/dheerajjha2', '_blank')} />
+            <SiGithub size={32} className="text-gray-700 cursor-pointer hover:text-gray-900" onClick={() => window.open('https://github.com/Dheerajjha451', '_blank')} />
           </div>
           <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center lg:justify-start gap-4 mt-6">
             <Button
