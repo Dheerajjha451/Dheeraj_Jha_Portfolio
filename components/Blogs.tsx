@@ -10,6 +10,9 @@ import blog1 from '../public/assets/StudBud.png'
 import blog2 from '../public/assets/Prompt.jpg';
 import blog3 from '../public/assets/G.png';
 import blog4 from '../public/assets/robohand.jpg';
+import blog5 from '../public/assets/OncoScout.png';
+import blog6 from '../public/assets/docker.webp';
+import { title } from 'process';
 
 export default function Blogs() {
     const blogs = [
@@ -41,6 +44,20 @@ export default function Blogs() {
             link: 'https://medium.com/@dheerajjha451/embarking-on-a-journey-of-discovery-exploring-the-fundamentals-of-machine-learning-with-the-aws-ai-222220e5abf1',
             mediumLink: 'https://medium.com/@dheerajjha451',
         },
+        {
+            title: 'OncoSight for accurate and speedy detection of Brain tumor.',
+            content: 'Our platform is dedicated to advancing medical image segmentation, with a special focus on accurately detecting brain tumors from MRI scans.​',
+            cover: blog5,
+            link: 'https://medium.com/@dheerajjha451/oncosight-for-accurate-and-speedy-detection-of-brain-tumor-34455d5e5a26',
+            mediumLink: 'https://medium.com/@dheerajjha451',
+        },
+        {
+            title:'Docker 0 to 1',
+            content:'Whether you’re a beginner or an advanced web developer, Docker is a powerful tool that can transform your development.',
+            cover:blog6,
+            link:'https://medium.com/@dheerajjha451/docker-0-to-1-part-1-7647c18d177b',
+            mediumLink: 'https://medium.com/@dheerajjha451',
+        }
     ];
 
     return (
