@@ -16,7 +16,7 @@ export default function HeroSection() {
   };
 
   const handleDownloadCV = () => {
-    const downloadUrl = '/ResumeDheeraj.pdf';
+    const downloadUrl = '/Dheeraj Jha Resume.pdf';
     fetch(downloadUrl)
       .then(response => response.blob())
       .then(blob => {
