@@ -23,7 +23,7 @@ export default function HeroSection() {
         const url = window.URL.createObjectURL(new Blob([blob]));
         const a = document.createElement('a');
         a.href = url;
-        a.setAttribute('download', 'Dheeraj_Resume.pdf');
+        a.setAttribute('download', 'Dheeraj Jha Resume.pdf');
         document.body.appendChild(a);
         a.click();
         a.remove();

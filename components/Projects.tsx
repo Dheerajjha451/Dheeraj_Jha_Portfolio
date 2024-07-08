@@ -35,10 +35,11 @@ export default function Project() {
       description: 'Our project utilizes advanced machine learning algorithms to predict brain tumors. It can detect various types of brain tumors, including glioma, pituitary tumors, and more.',
     },
     {
-      title: 'Meet Your Pet',
+      title: 'Help a Pet',
       tech: [SiReact, SiTailwindcss, SiFlask],
       link: 'https://github.com/Dheerajjha451/Meet_Your_Pet',
       cover: project7Image,
+      LivePreview: 'https://meet-pet.vercel.app/',
       description: 'Connecting stray animals with loving homes through innovative technology.',
     },
     {
