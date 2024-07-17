@@ -4,11 +4,34 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: "Dheeraj Jha - Full Stack Developer & UI/UX Designer",
-  description: "Portfolio Website - Full Stack Developer and UI/UX Designer",
+  title: "Dheeraj Jha - Full Stack Developer, UI/UX Designer, and Freelance Developer",
+  description: "Portfolio website of Dheeraj Jha, showcasing skills and projects in full stack development, UI/UX design, and freelance work.",
+  keywords: [
+    "Dheeraj Jha",
+    "Full Stack Developer",
+    "UI/UX Designer",
+    "Freelance Developer",
+    "Web Development",
+    "Software Engineering",
+    "Freelance Projects",
+    "Portfolio",
+    "React Developer",
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Prisma",
+    "PostgreSQL",
+  ],
+  openGraph: {
+    title: "Dheeraj Jha - Full Stack Developer, UI/UX Designer, and Freelance Developer",
+    description: "Explore the portfolio of Dheeraj Jha, showcasing skills and projects in full stack development, UI/UX design, and freelance work.",
+    url: "https://www.dheeraj-jha.tech/", 
+    type: "website",
+    
+  },
 };
+
 
 
 export default function RootLayout({
@@ -18,7 +41,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-    <head />
+<head>
+<meta name="google-site-verification" content="he2XSqBKe7HJzey6IC51NRFS8wdQ8TAQpv26jOk8sGQ" />
+</head>
     <body>
       <ThemeProvider
         attribute="class"
