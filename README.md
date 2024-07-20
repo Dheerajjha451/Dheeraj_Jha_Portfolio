@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dheeraj Jha's Portfolio
 
-## Getting Started
+Welcome to my portfolio website! This site showcases my projects and skills as a full-stack developer and UI/UX designer. Built with Next.js and styled using Aceternity UI, Shadcn, and Tailwind CSS, it provides a comprehensive overview of my work and expertise.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Project Showcase**: A detailed display of my projects, including descriptions, technologies used, and links to live demos and repositories.
+- **Skills Section**: Highlights my technical skills and proficiencies.
+- **Responsive Design**: Ensures the site looks great on all devices.
+- **Interactive UI**: Provides a smooth and engaging user experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+- **Next.js**: A React framework for server-rendered or statically-exported React applications.
+- **Aceternity UI**: A modern UI component library for React.
+- **Shadcn**: A design system built on top of Tailwind CSS.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run this project locally, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Clone the repository**:
 
-## Deploy on Vercel
+    ```bash
+    git clone [https://github.com/your-username/your-portfolio-repo.git](https://github.com/Dheerajjha451/Dheeraj_Jha_Portfolio)
+    cd Dheeraj_Jha_Portfolio
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install dependencies**:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3. **Start the development server**:
+
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+4. Open your browser and navigate to `http://localhost:3000` to see the website in action.
+
+
+
+## Contact
+
+If you have any questions or would like to collaborate, feel free to reach out:
+
+- **Email**: dheerajjha451@gmail.com
+- **LinkedIn**: [linkedin.com/in/dheerajjha](https://www.linkedin.com/in/dheerajjha)
+  
+
+---
+
+Feel free to customize the template as needed and add any additional sections or information relevant to your portfolio.
