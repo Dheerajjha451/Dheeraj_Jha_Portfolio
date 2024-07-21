@@ -59,7 +59,7 @@ To run this project locally, follow these steps:
 If you have any questions or would like to collaborate, feel free to reach out:
 
 - **Email**: dheerajjha451@gmail.com
-- **LinkedIn**: [linkedin.com/in/dheerajjha](https://www.linkedin.com/in/dheerajjha)
+- **LinkedIn**: [linkedin.com/in/dheeraj-jha451/](https://www.linkedin.com/in/dheeraj-jha451/)
   
 
 ---
