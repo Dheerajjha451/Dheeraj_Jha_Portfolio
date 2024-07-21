@@ -30,7 +30,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository**:
 
     ```bash
-    git clone [https://github.com/Dheerajjha451/Dheeraj_Jha_Portfolio](https://github.com/Dheerajjha451/Dheeraj_Jha_Portfolio)
+    git clone https://github.com/Dheerajjha451/Dheeraj_Jha_Portfolio
     cd Dheeraj_Jha_Portfolio
     ```
 
