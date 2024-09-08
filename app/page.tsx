@@ -17,7 +17,10 @@ export default function Page() {
         <div className="max-w-7xl mx-auto my-20 sm:my-20">
           <Skills />
         </div>
+        <div>
+         
         <Work/>
+        </div>
         <div className="max-w-7xl mx-auto">
           <Projects />
         </div>

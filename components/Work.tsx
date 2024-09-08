@@ -4,15 +4,20 @@ import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "../components/ui/tracing-beam";
 import Image1 from "../public/assets/kioskkarte.png"; 
-import Image2 from "../public/assets/testimonial.png";
+import Image2 from "../public/assets/billybeta.png"; 
+import Image3 from "../public/assets/IgniPC.svg"; 
+import Title from "./Title";
 
 export function Work() {
   return (
+    
     <TracingBeam className="px-6">
+       <Title text='My Experience' className='grid  items-center justify-center -right-6' />
       <div className="max-w-2xl mx-auto antialiased pt-4 relative">
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
-            <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
+            {/* Highlight company name */}
+            <h2 className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-lg font-bold rounded-md shadow-lg px-8 py-2 mb-6 inline-block transform hover:scale-105 transition duration-300 ease-in-out">
               {item.badge}
             </h2>
 
@@ -22,33 +27,24 @@ export function Work() {
               {item?.image && (
                 <Image
                   src={item.image}
-                  alt="blog thumbnail"
+                  alt="work thumbnail"
                   height={1000}
                   width={1000}
                   className="rounded-lg mb-10 object-cover"
                 />
               )}
               {item.description}
-              <div className="mt-6">
-                <h3 className="font-semibold text-lg">Testimonial</h3>
-                <Image
-                  src={Image2}
-                  alt="testimonial"
-                  height={1000}
-                  width={1000}
-                  className="mt-2"
-                />
-              </div>
             </div>
+
+            {/* Tech Stack aligned horizontally */}
             <div className="mt-6">
               <h3 className="font-semibold text-lg">Tech Stack</h3>
-              <ul className="list-disc pl-5">
-                <li>Next.js</li>
-                <li>Tailwind CSS</li>
-                <li>Prisma</li>
-                <li>MongoDB</li>
-                <li>Express.js</li>
-                <li>Leaflet</li>
+              <ul className="flex flex-wrap gap-4 mt-2">
+                {item.techStack.map((tech, techIndex) => (
+                  <li key={techIndex} className="bg-blue-700 text-white px-3 py-1 rounded-md">
+                    {tech}
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
@@ -60,15 +56,49 @@ export function Work() {
 
 const dummyContent = [
   {
-    title: "Full Stack developer",
+    title: "Full Stack Developer Intern",
     description: (
       <>
         <p>
-          Kioskkarte leverages advanced technologies to create a seamless experience for users looking to find vending machines and check their inventory in real-time.
+          August 2024 – September 2024 <br />
+          ● Optimized website performance by 35% using CloudFront, Fastify, and Redux, enhancing load times and user experience.<br />
+          ● Improved data security by integrating AWS Cognito for secure authentication and AWS S3 for image storage.<br />
+          ● Designed an efficient PostgreSQL database schema and developed class diagrams, reducing data retrieval time by 20%.
         </p>
       </>
     ),
-    badge: "kioskkarte",
+    badge: "IgniPC Private Limited",
+    image: Image3,
+    techStack: ["AWS", "Next.js", "Typescript", "fastify", "Material UI", "PostgreSQL"],
+  },
+  {
+    title: "Full Stack Web Developer",
+    description: (
+      <>
+        <p>
+          July 2024 – August 2024 <br />
+          ● Developed a robust platform for listing vending machines with scalable architecture to handle thousands of listings efficiently.<br />
+          ● Implemented search and filter functionality based on geographic location, reducing response time by 40%.<br />
+          ● Enhanced user engagement by improving the accuracy and accessibility of vending machine information.
+        </p>
+      </>
+    ),
+    badge: "KioskKarte",
     image: Image1,
+    techStack: ["Next.js", "Tailwind CSS", "Prisma", "MongoDB", "Express.js", "Leaflet"],
+  },
+  {
+    title: "Full Stack Web Developer",
+    description: (
+      <>
+        <p>
+          ● Created a streamlined onboarding waitlist page for BillyBeta, enabling users to seamlessly join the platform waitlist.<br />
+          ● Successfully improved user acquisition through a simplified sign-up process, resulting in an increased number of signups.
+        </p>
+      </>
+    ),
+    badge: "BillyBeta",
+    image: Image2,
+    techStack: ["Next.js", "TailwindCSS", "MongoDB", "TypeScript"],
   },
 ];
