@@ -9,7 +9,7 @@ import { SiInstagram, SiMedium, SiYoutube, SiLinkedin, SiTwitter, SiBehance, SiG
 import img from '../public/assets/Dheeraj.jpeg';
 
 export default function HeroSection() {
-  const words = `UI/UX Designer and Full Stack Developer with a passion for creating beautiful and intuitive digital experiences.`;
+  const words = ` Experienced Full Stack Developer specializing in building scalable web applications and optimizing website performance. Proficient in modern JavaScript frameworks, cloud platforms, and secure data handling. Skilled in Next.js, MERN stack, AWS, and PostgreSQL, delivering efficient and user-friendly solutions.  `;
 
   const handleContactMe = () => {
     window.location.href = 'mailto:dheerajjha451@gmail.com';

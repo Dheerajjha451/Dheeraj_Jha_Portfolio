@@ -14,15 +14,14 @@ export default function Page() {
         <div className="max-w-7xl mx-auto">
           <HeroSection />
         </div>
-        <div className="max-w-7xl mx-auto my-20 sm:my-20">
-          <Skills />
-        </div>
-        <div>
-         
+        <div className="max-w-7xl mx-auto my-20 sm:my-20">      
         <Work/>
         </div>
+        <div className="max-w-7xl mx-auto my-20 sm:my-20">      
+        <Projects />
+        </div>
         <div className="max-w-7xl mx-auto">
-          <Projects />
+          <Skills />
         </div>
       </div>
       <Footer/>
