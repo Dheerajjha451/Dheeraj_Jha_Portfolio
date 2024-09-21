@@ -34,9 +34,9 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/assets/Dheeraj.jpeg", 
-        width: 1200,
-        height: 630,
+        url: "https://www.dheeraj-jha.tech/assets/Dheeraj.jpeg", 
+        width: 96,
+        height: 96,
         alt: "Dheeraj Jha - Full Stack Developer Portfolio",
       },
     ],
