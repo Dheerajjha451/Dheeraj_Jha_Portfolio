@@ -16,14 +16,14 @@ export default function HeroSection() {
   };
 
   const handleDownloadCV = () => {
-    const downloadUrl = '/Dheeraj Jha Resume.pdf';
+    const downloadUrl = '/assets/Resume DheeraJ Jha.pdf';
     fetch(downloadUrl)
       .then(response => response.blob())
       .then(blob => {
         const url = window.URL.createObjectURL(new Blob([blob]));
         const a = document.createElement('a');
         a.href = url;
-        a.setAttribute('download', 'Dheeraj Jha Resume.pdf');
+        a.setAttribute('download', 'Resume Dheeraj Jha.pdf');
         document.body.appendChild(a);
         a.click();
         a.remove();

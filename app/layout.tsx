@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     "Prisma",
     "PostgreSQL",
   ],
+  metadataBase: new URL("https://www.dheeraj-jha.tech"),
   openGraph: {
     title: "Dheeraj Jha - Full Stack Developer, UI/UX Designer, and Freelance Developer",
     description: "Explore the portfolio of Dheeraj Jha, showcasing skills and projects in full stack development, UI/UX design, and freelance work.",
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "../public/assets/Dheeraj.jpeg", 
+        url: "/assets/Dheeraj.jpeg", 
         width: 1200,
         height: 630,
         alt: "Dheeraj Jha - Full Stack Developer Portfolio",
