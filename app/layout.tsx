@@ -52,6 +52,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="google-site-verification" content="he2XSqBKe7HJzey6IC51NRFS8wdQ8TAQpv26jOk8sGQ" />
+        <link rel="icon" href="/assets/Dheeraj.jpeg" sizes="96x96" />
+        <link rel="apple-touch-icon" href="/assets/Dheeraj.jpeg" sizes="96x96" />
       </head>
       <body>
         <ThemeProvider
