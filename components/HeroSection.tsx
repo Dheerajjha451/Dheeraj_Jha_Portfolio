@@ -42,7 +42,7 @@ export default function HeroSection() {
           </h1>
           <TextGenerateEffect words={words} />
           <div className="flex flex-wrap justify-center lg:justify-start gap-4 mt-4 lg:mt-6">
-            <SiInstagram size={32} className="text-pink-500 cursor-pointer hover:text-pink-700" onClick={() => window.open('https://www.instagram.com/', '_blank')} />
+            <SiInstagram size={32} className="text-pink-500 cursor-pointer hover:text-pink-700" onClick={() => window.open('https://www.instagram.com/dheerajjha541/', '_blank')} />
             <SiMedium size={32} className="text-gray-400 cursor-pointer hover:text-gray-600" onClick={() => window.open('https://medium.com/@dheerajjha451', '_blank')} />
             <SiYoutube size={32} className="text-red-600 cursor-pointer hover:text-red-800" onClick={() => window.open('https://youtube.com/@Dheeraj45136?si=wjzvEru1VVXOA4se', '_blank')} />
             <SiLinkedin size={32} className="text-blue-800 cursor-pointer hover:text-blue-900" onClick={() => window.open('https://linkedin.com/in/dheeraj-jha451/', '_blank')} />
