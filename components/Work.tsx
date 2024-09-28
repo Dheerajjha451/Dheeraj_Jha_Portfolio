@@ -55,22 +55,7 @@ export function Work() {
 }
 
 const dummyContent = [
-  {
-    title: "Full Stack Developer Intern",
-    description: (
-      <>
-        <p>
-          August 2024 – September 2024 <br />
-          ● Optimized website performance by 35% using CloudFront, Fastify, and Redux, enhancing load times and user experience.<br />
-          ● Improved data security by integrating AWS Cognito for secure authentication and AWS S3 for image storage.<br />
-          ● Designed an efficient PostgreSQL database schema and developed class diagrams, reducing data retrieval time by 20%.
-        </p>
-      </>
-    ),
-    badge: "IgniPC Private Limited",
-    image: Image3,
-    techStack: ["AWS", "Next.js", "Typescript", "fastify", "Material UI", "PostgreSQL"],
-  },
+ 
   {
     title: "Full Stack Web Developer",
     description: (
