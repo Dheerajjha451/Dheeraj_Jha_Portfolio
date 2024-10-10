@@ -3,16 +3,14 @@ import React from "react";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "../components/ui/tracing-beam";
-import Image1 from "../public/assets/kioskkarte.png"; 
+import Image1 from "../public/assets/vendr.png"; 
 import Image2 from "../public/assets/billybeta.png"; 
-import Image3 from "../public/assets/IgniPC.svg"; 
 import Title from "./Title";
 
 export function Work() {
   return (
-    
     <TracingBeam className="px-6">
-       <Title text='My Experience' className='grid  items-center justify-center -right-6' />
+      <Title text="My Experience" className="grid items-center justify-center -right-6" />
       <div className="max-w-2xl mx-auto antialiased pt-4 relative">
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
@@ -36,12 +34,27 @@ export function Work() {
               {item.description}
             </div>
 
+            {/* Project Link */}
+            {item.link && (
+              <a
+                href={item.link}
+                className="text-blue-500 underline mt-2 inline-block"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View 
+              </a>
+            )}
+
             {/* Tech Stack aligned horizontally */}
             <div className="mt-6">
               <h3 className="font-semibold text-lg">Tech Stack</h3>
               <ul className="flex flex-wrap gap-4 mt-2">
                 {item.techStack.map((tech, techIndex) => (
-                  <li key={techIndex} className="bg-blue-700 text-white px-3 py-1 rounded-md">
+                  <li
+                    key={techIndex}
+                    className="bg-blue-700 text-white px-3 py-1 rounded-md"
+                  >
                     {tech}
                   </li>
                 ))}
@@ -55,7 +68,6 @@ export function Work() {
 }
 
 const dummyContent = [
- 
   {
     title: "Full Stack Web Developer",
     description: (
@@ -68,9 +80,10 @@ const dummyContent = [
         </p>
       </>
     ),
-    badge: "KioskKarte",
+    badge: "Vendr",
     image: Image1,
-    techStack: ["Next.js", "Tailwind CSS", "Prisma", "MongoDB", "Express.js", "Leaflet"],
+    link: "https://www.wendr.de/", 
+    techStack: ["Next.js", "Tailwind CSS", "Prisma", "MongoDB",  "Leaflet"],
   },
   {
     title: "Full Stack Web Developer",
@@ -84,6 +97,7 @@ const dummyContent = [
     ),
     badge: "BillyBeta",
     image: Image2,
+    link: "https://billy.designtocode.me/", 
     techStack: ["Next.js", "TailwindCSS", "MongoDB", "TypeScript"],
   },
 ];

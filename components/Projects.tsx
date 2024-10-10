@@ -1,11 +1,12 @@
 import React from 'react';
 import { LiaNodeJs } from 'react-icons/lia';
-import { SiBootstrap, SiCss3, SiDjango, SiFlask, SiHtml5, SiJavascript, SiNextdotjs, SiPhp, SiReact, SiReactquery, SiTailwindcss, SiTensorflow } from 'react-icons/si';
+import { SiBootstrap, SiCss3, SiDjango, SiFlask, SiHtml5, SiJavascript, SiMeta, SiNextdotjs, SiPhp, SiReact, SiReactquery, SiTailwindcss, SiTensorflow } from 'react-icons/si';
 import Title from './Title';
 import Link from 'next/link';
 import Image from 'next/image';
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import { cn } from '@/lib/utils';
+import projectImage from "../public/assets/Sitelink.png"
 import project1Image from '../public/assets/StudBud1.jpeg';
 import project2Image from '../public/assets/QR.png';
 import project3Image from '../public/assets/wordlist.png';
@@ -25,6 +26,14 @@ export default function Project() {
       cover: project8Image,
       LivePreview: 'https://www.designtocode.me/',
       description: 'Design2Code is a platform where developers can share their projects with other developers.',
+    },
+    {
+      title: 'Site Link AI',
+      tech: [SiReact, SiTailwindcss, SiMeta ],
+      link: 'https://github.com/Dheerajjha451/',
+      cover: projectImage,
+      LivePreview: 'https://sitelinkai.designtocode.me/',
+      description: 'Chat with Websites, Powered by AI.',
     },
     {
       title: 'Brain Tumor',
