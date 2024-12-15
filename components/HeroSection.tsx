@@ -9,7 +9,7 @@ import { SiInstagram, SiMedium, SiYoutube, SiLinkedin, SiTwitter, SiBehance, SiG
 import img from '../public/assets/Dheeraj.jpeg';
 
 export default function HeroSection() {
-  const words = ` Experienced Full Stack Developer specializing in building scalable web applications and optimizing website performance. Proficient in modern JavaScript frameworks, cloud platforms, and secure data handling. Skilled in Next.js, MERN stack, AWS, and PostgreSQL, delivering efficient and user-friendly solutions.  `;
+  const words = `Full Stack Developer specializing in building scalable web applications and optimizing website performance. Proficient in modern JavaScript frameworks, cloud platforms, and secure data handling. Skilled in Next.js, MERN stack, AWS, and PostgreSQL, delivering efficient and user-friendly solutions.  `;
 
   const handleContactMe = () => {
     window.location.href = 'mailto:dheerajjha451@gmail.com';

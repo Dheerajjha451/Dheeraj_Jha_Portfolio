@@ -65,3 +65,4 @@ If you have any questions or would like to collaborate, feel free to reach out:
 ---
 
 Feel free to customize the template as needed and add any additional sections or information relevant to your portfolio.
+
