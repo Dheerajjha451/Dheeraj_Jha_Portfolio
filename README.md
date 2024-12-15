@@ -53,6 +53,92 @@ To run this project locally, follow these steps:
 4. Open your browser and navigate to `http://localhost:3000` to see the website in action.
 
 
+## Docker Image
+
+The Docker image for this application is available as:  
+`dheerajjha451/portfolio:01`
+
+## Prerequisites
+
+Before running the Docker image, ensure you have the following installed on your local system:
+
+- [Docker](https://docs.docker.com/get-docker/)
+
+## Running the Application Locally
+
+To run the portfolio application locally using Docker, follow these steps:
+
+### Step 1: Pull the Docker Image
+
+Use the following command to pull the Docker image from Docker Hub:
+
+```bash
+docker pull dheerajjha451/portfolio:01
+```
+
+### Step 2: Run the Docker Container
+
+Run the Docker container using the following command:
+
+```bash
+docker run -d -p 3000:3000 dheerajjha451/portfolio:01
+```
+
+This will:
+
+- Run the container in detached mode (`-d`).
+- Map the container's port `3000` to your local machine's port `3000` (`-p 3000:3000`).
+
+### Step 3: Access the Application
+
+Once the container is running, you can access the portfolio application in your web browser at:
+
+```
+http://localhost:3000
+```
+
+## Stopping the Application
+
+To stop the running container, first, find the container ID using:
+
+```bash
+docker ps
+```
+
+Then stop the container with:
+
+```bash
+docker stop <container_id>
+```
+
+## Additional Commands
+
+- **List Running Containers**:  
+  ```bash
+  docker ps
+  ```
+
+- **Remove the Container**:  
+  After stopping the container, you can remove it with:  
+  ```bash
+  docker rm <container_id>
+  ```
+
+- **Remove the Docker Image**:  
+  If you no longer need the Docker image, you can remove it with:  
+  ```bash
+  docker rmi dheerajjha451/portfolio:01
+  ```
+
+## Customization
+
+If you want to customize the application or build the Docker image yourself, you can clone this repository and use the provided `Dockerfile`.
+
+```bash
+git clone https://github.com/dheerajjha451/portfolio.git
+cd portfolio
+docker build -t dheerajjha451/portfolio:01 .
+```
 
 ## Contact
 
