@@ -1,6 +1,6 @@
 import React from 'react';
 import { LiaNodeJs } from 'react-icons/lia';
-import { SiBootstrap, SiCss3, SiDjango, SiFlask, SiHtml5, SiJavascript, SiMeta, SiNextdotjs, SiPhp, SiReact, SiReactquery, SiTailwindcss, SiTensorflow } from 'react-icons/si';
+import { SiBootstrap, SiCss3, SiDjango, SiFlask, SiHtml5, SiJavascript, SiMeta, SiNextdotjs, SiPhp, SiReact, SiReactquery, SiTailwindcss, SiTensorflow, SiTypescript, SiWebrtc } from 'react-icons/si';
 import Title from './Title';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -15,10 +15,18 @@ import project7Image from '../public/assets/Desktop2.png';
 import project5Image from '../public/assets/2.jpeg';
 import project6Image from '../public/assets/news.png';
 import project8Image from '../public/assets/Design.png';
-import project9Image from '../public/assets/Briantumor1.png';
+import project9Image from '../public/assets/cancerdetection.png';
 
 export default function Project() {
   const projects = [
+    {
+      title: 'https://github.com/Dheerajjha451/CancerDetection',
+      tech: [SiNextdotjs, SiFlask, SiWebrtc,SiTypescript, SiTailwindcss],
+      link: '',
+      cover: project9Image,
+      LivePreview: 'https://healthcare.designtocode.me/',
+      description: 'This project is an online platform designed to provide comprehensive health services for cancer patients. The aim is to create a digital space where patients can easily access resources, support, and professional consultations to manage their health journey. Through this platform, patients and their families can find essential information.',
+    },
     {
       title: 'Design2Code',
       tech: [SiNextdotjs, SiTailwindcss, SiJavascript, LiaNodeJs],
@@ -35,14 +43,7 @@ export default function Project() {
       LivePreview: 'https://sitelinkai.designtocode.me/',
       description: 'Chat with Websites, Powered by AI.',
     },
-    {
-      title: 'Brain Tumor',
-      tech: [SiReact, SiTensorflow, SiTailwindcss],
-      link: 'https://github.com/Dheerajjha451/BrainTumor',
-      cover: project9Image,
-      LivePreview: 'https://braintumor.designtocode.me/',
-      description: 'Our project utilizes advanced machine learning algorithms to predict brain tumors. It can detect various types of brain tumors, including glioma, pituitary tumors, and more.',
-    },
+   
     {
       title: 'Help a Pet',
       tech: [SiReact, SiTailwindcss, SiFlask],
