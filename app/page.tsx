@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 import { Work } from '@/components/Work';
 import { Metadata } from 'next';
 export const metadata: Metadata = {
-  title: 'Freelancer Portfolio - Build Projects with Responsive Design & Enhanced User Experience',
+  title: 'Portfolio - Build Projects with Responsive Design & Enhanced User Experience',
   description:
     'Explore the portfolio of a skilled freelancer. Discover top projects, UI/UX design, and the best practices for building responsive websites and applications. Get inspired by the "Product of the Day" and "Product of the Week" showcasing innovative design and development.',
   keywords: [

@@ -6,7 +6,7 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dheeraj Jha - Expert Full Stack Developer, UI/UX Designer, and Freelance Developer",
+  title: "Dheeraj Jha -  Full Stack Developer, UI/UX Designer, and Freelance Developer",
   description: "Dheeraj Jha, a skilled Full Stack Developer with expertise in UI/UX design, React, Next.js, and freelance projects. Explore my portfolio to see how I build intuitive, high-performance web applications.",
   keywords: [
     "Dheeraj Jha",
