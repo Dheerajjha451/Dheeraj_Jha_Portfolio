@@ -10,7 +10,6 @@ import projectImage from "../public/assets/Sitelink.png"
 import project1Image from '../public/assets/StudBud1.jpeg';
 import project2Image from '../public/assets/QR.png';
 import project3Image from '../public/assets/wordlist.png';
-import project4Image from '../public/assets/OncoScout.png';
 import project7Image from '../public/assets/Desktop2.png';
 import project5Image from '../public/assets/2.jpeg';
 import project6Image from '../public/assets/news.png';
@@ -20,12 +19,12 @@ import project9Image from '../public/assets/cancerdetection.png';
 export default function Project() {
   const projects = [
     {
-      title: 'https://github.com/Dheerajjha451/CancerDetection',
+      title: 'Cancer Detection',
       tech: [SiNextdotjs, SiFlask, SiWebrtc,SiTypescript, SiTailwindcss],
-      link: '',
+      link: 'https://github.com/Dheerajjha451/CancerDetection',
       cover: project9Image,
       LivePreview: 'https://healthcare.designtocode.me/',
-      description: 'This project is an online platform designed to provide comprehensive health services for cancer patients. The aim is to create a digital space where patients can easily access resources, support, and professional consultations to manage their health journey. Through this platform, patients and their families can find essential information.',
+      description: 'This project is an online platform designed to provide comprehensive health services for cancer patients.',
     },
     {
       title: 'Design2Code',
@@ -52,13 +51,7 @@ export default function Project() {
       LivePreview: 'https://meet-pet.vercel.app/',
       description: 'Connecting stray animals with loving homes through innovative technology.',
     },
-    {
-      title: 'OncoScout',
-      tech: [SiNextdotjs, SiTailwindcss, SiFlask],
-      link: 'https://github.com/Dheerajjha451/OncoScout',
-      cover: project4Image,
-      description: 'Our project utilizes advanced machine learning algorithms to predict brain tumors. It can detect various types of brain tumors.',
-    },
+ 
     {
       title: 'QR Attendance System',
       tech: [SiHtml5, SiCss3, SiDjango],
