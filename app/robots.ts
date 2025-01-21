@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://www.dheeraj-jha.tech/sitemap.xml',
+    sitemap: 'https://www.dheeraj-jha.tech/sitemap.ts',
   }
 }
