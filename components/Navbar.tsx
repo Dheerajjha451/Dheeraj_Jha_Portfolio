@@ -10,12 +10,12 @@ const navItems = [
     icon: <HiOutlineHome className="w-6 h-6" />,
   },
   {
-    path: "/UI",
+    path: "/ui",
     name: "UI",
     icon: <HiOutlineViewGrid className="w-6 h-6" />,
   },
   {
-    path: "/Blogs",
+    path: "/blogs",
     name: "Blogs",
     icon: <HiOutlineChatAlt className="w-6 h-6" />,
   },
