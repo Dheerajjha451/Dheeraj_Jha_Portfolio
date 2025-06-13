@@ -4,23 +4,32 @@ import Blogs from '@/components/Blogs';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 export const metadata: Metadata = {
-  title: 'Blogs | Full Stack Developer - Insights on Technology, AI, and Machine Learning',
+  title: 'Tech Blogs & Insights',
   description:
-    'Discover engaging blogs about AI, machine learning, generative AI, Docker, AWS, Google Cloud, and innovative projects like StudBud and OncoSight. Explore the latest trends and insights in technology, development, and research.',
+    'Read Dheeraj Jha\'s technical blogs covering AI, machine learning, web development, cloud technologies, and innovative project insights. Stay updated with latest trends in technology and software development.',
   keywords: [
-    'AI blogs',
-    'machine learning blogs',
-    'generative AI with Google Cloud',
-    'Docker tutorial',
-    'AWS AI and ML Scholarship',
-    'StudBud platform',
-    'OncoSight brain tumor detection',
+    'tech blog',
+    'AI articles',
+    'machine learning tutorials',
+    'web development blog',
+    'React tutorials',
+    'Next.js insights',
+    'cloud computing',
+    'AWS tutorials',
+    'Google Cloud Platform',
+    'Docker containerization',
+    'full stack development',
+    'programming tutorials',
+    'software engineering',
     'technology trends',
-    'innovative projects',
-    'high-performance workstations',
-    'technical insights',
-    'IgniPC blogs',
+    'development best practices',
+    'code tutorials'
   ],
+  openGraph: {
+    title: 'Tech Blogs by Dheeraj Jha',
+    description: 'Technical insights and tutorials on AI, web development, cloud technologies, and modern programming practices',
+    images: ['/assets/Dheeraj.jpeg'],
+  },
 };
 export default function BlogsPage() {
   return (

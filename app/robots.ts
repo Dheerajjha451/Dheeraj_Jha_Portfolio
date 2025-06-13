@@ -6,9 +6,15 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: '/private/',
+        disallow: ['/api/', '/_next/', '/admin/'],
+      },
+      {
+        userAgent: 'Googlebot',
+        allow: '/',
+        disallow: ['/api/', '/_next/', '/admin/'],
       },
     ],
-    sitemap: 'https://www.dheeraj-jha.tech/sitemap.xml',
+    sitemap: 'https://www.dheerajjha.com/sitemap.xml',
+    host: 'https://www.dheerajjha.com',
   };
 }

@@ -1,0 +1,47 @@
+{
+  "name": "Dheeraj Jha - Full Stack Developer Portfolio",
+  "short_name": "Dheeraj Jha",
+  "description": "Portfolio website of Dheeraj Jha - Full Stack Developer, UI/UX Designer, and Freelancer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/Dheeraj.jpeg",
+      "sizes": "96x96",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "developer", "technology"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "scope": "/",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Portfolio",
+      "short_name": "Portfolio",
+      "description": "View my portfolio projects",
+      "url": "/",
+      "icons": [{ "src": "/assets/Dheeraj.jpeg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Blogs",
+      "short_name": "Blogs",
+      "description": "Read technical blogs",
+      "url": "/blogs",
+      "icons": [{ "src": "/assets/Dheeraj.jpeg", "sizes": "96x96" }]
+    },
+    {
+      "name": "UI Challenges",
+      "short_name": "UI",
+      "description": "View UI design challenges",
+      "url": "/ui",
+      "icons": [{ "src": "/assets/Dheeraj.jpeg", "sizes": "96x96" }]
+    }
+  ]
+}

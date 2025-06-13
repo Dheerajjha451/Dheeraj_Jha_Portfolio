@@ -4,28 +4,34 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Metadata } from 'next';
 export const metadata: Metadata = {
-  title: '100 Days of UI Challenge',
+  title: '100 Days UI Challenge - Design Portfolio',
   description:
-    'Explore our 100 Days of UI Challenge featuring innovative and creative UI designs. Join the journey to enhance your UI/UX skills with daily challenges, tips, and inspiration. Perfect for designers and developers passionate about UI/UX design.',
+    'Explore Dheeraj Jha\'s 100 Days of UI Challenge featuring innovative and creative user interface designs. Daily UI challenges showcasing modern design principles, responsive layouts, and exceptional user experiences.',
   keywords: [
-    'UI challenge',
-    '100 days of UI challenge',
-    'UI/UX design',
-    'creative UI designs',
-    'daily UI challenges',
-    'UI inspiration',
-    'UX tips',
-    'UI/UX development',
-    'design challenges',
+    '100 days UI challenge',
+    'UI design portfolio',
+    'daily UI designs',
+    'creative interfaces',
     'user interface design',
-    'frontend design',
-    'UI challenges for developers',
-    'UI/UX learning',
-    'design trends',
+    'UX design showcase',
     'modern UI components',
-    'responsive UI designs',
-    'UI ideas for designers',
+    'responsive design',
+    'design inspiration',
+    'UI/UX portfolio',
+    'interface design',
+    'visual design',
+    'design challenges',
+    'frontend design',
+    'web design portfolio',
+    'mobile UI design',
+    'design system',
+    'user experience'
   ],
+  openGraph: {
+    title: '100 Days UI Challenge by Dheeraj Jha',
+    description: 'Creative UI designs and daily design challenges showcasing modern interface design and user experience principles',
+    images: ['/assets/billybeta.png'], 
+  },
 };
 export default function UI() {
   return (

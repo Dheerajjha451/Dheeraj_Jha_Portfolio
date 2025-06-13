@@ -7,33 +7,31 @@ import Footer from '@/components/Footer';
 import { Work } from '@/components/Work';
 import { Metadata } from 'next';
 export const metadata: Metadata = {
-  title: 'Portfolio - Build Projects with Responsive Design & Enhanced User Experience',
+  title: 'Home',
   description:
-    'Explore the portfolio of a skilled freelancer. Discover top projects, UI/UX design, and the best practices for building responsive websites and applications. Get inspired by the "Product of the Day" and "Product of the Week" showcasing innovative design and development.',
+    'Welcome to Dheeraj Jha\'s portfolio - showcasing innovative projects in full stack development, UI/UX design, and cutting-edge technology solutions. Explore responsive web applications, AI/ML integrations, and award-winning designs.',
   keywords: [
-    'freelancer portfolio',
-    'product of the day',
-    'product of the week',
-    'build responsive projects',
-    'enhanced user experience',
-    'UI/UX design',
-    'web development portfolio',
-    'front-end development',
-    'build projects',
-    'responsive design',
-    'web application development',
-    'top projects',
-    'UI/UX best practices',
-    'user-centered design',
-    'mobile-first design',
+    'portfolio',
+    'full stack projects',
+    'responsive web design',
+    'UI/UX portfolio',
+    'web development projects',
+    'React applications',
+    'Next.js projects',
     'modern web development',
-    'frontend freelancer',
-    'portfolio website',
-    'website layout',
+    'frontend development',
+    'backend solutions',
     'innovative design',
-    'freelance developer',
-    'freelance portfolio',
+    'user experience',
+    'professional portfolio',
+    'software projects',
+    'technology showcase'
   ],
+  openGraph: {
+    title: 'Dheeraj Jha - Portfolio & Projects',
+    description: 'Discover innovative projects and professional work by Dheeraj Jha - Full Stack Developer and UI/UX Designer',
+    images: ['/assets/Dheeraj.jpeg'],
+  },
 };
 export default function Page() {
   return (
