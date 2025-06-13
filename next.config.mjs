@@ -9,6 +9,9 @@ const nextConfig = {
         imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     },
     
+    // Font optimization
+    optimizeFonts: true,
+    
     // Security headers
     async headers() {
         return [
@@ -41,11 +44,6 @@ const nextConfig = {
     
     // Power optimizations
     poweredByHeader: false,
-    
-    // Enable experimental features for better performance
-    experimental: {
-        optimizeCss: true,
-    }
 };
 
 export default nextConfig;

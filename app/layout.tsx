@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { Analytics } from '@vercel/analytics/react';
-const inter = Inter({ subsets: ["latin"] });
+
+// Use system fonts as fallback to avoid network issues
+const fontClass = "font-sans";
 
 export const metadata: Metadata = {
   title: {
