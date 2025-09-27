@@ -189,7 +189,7 @@ export default function RootLayout({
         <link rel="alternate" hrefLang="no-NO" href="https://www.dheerajjha.com/no" />
         <link rel="alternate" hrefLang="fi-FI" href="https://www.dheerajjha.com/fi" />
         <link rel="alternate" hrefLang="x-default" href="https://www.dheerajjha.com" />
-        <script type="module" async src="https://webcomment.dheerajjha.com/webcomment-embed.js?pt=PUB_X4WGLWEZM6DTCQCS"></script>
+ 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
